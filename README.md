@@ -11,20 +11,7 @@ CreateKey.py   encode.py   decode.py
     phi = (p-1)*(q-1)
     e = getE(phi)
     d = getD(e, phi)
-    
-    def getE(phi):
-        e = 65537
-        while True:
-            if math.gcd(e, phi) == 1:
-                break
-            e += 2
-        return e
 
-    def getD(e, phi):
-        d = myLibrary.GCD(e, phi)[0]
-        if d < 0:
-            d += phi
-        return d
     
 PublicKey = (n, e)
 
