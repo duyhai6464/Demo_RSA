@@ -17,12 +17,12 @@ def convertStringToInt(P, base):
     return R
 
 
-def createBigInt(R, size_n):
+def zipInt(R, size_n):
     A = []
     x = ""
     for i in R:
         # Tối ưu mã hóa nhiều kí tự nhất có thể
-        if len(x) + len(i) >= size_n - 1:
+        if len(x) + len(i) >= size_n:
             A.append(int(x))
             x = ""
         x += i
@@ -34,12 +34,11 @@ def encode(n, e, P, fileout):
     with open(fileout, "w") as f:
         C = ""
         R = convertStringToInt(P, 4)
-        A = createBigInt(R, len(str(n)))
+        A = zipInt(R, len(str(n)))
         for i in A:
             M = pow(i, e, n)
-            M = myLibrary.toBase(M, 64)
-            C += M + ' '
-        print(C, file=f, end='')
+            C += myLibrary.toBase(M, 64) + ' '
+        print(C[:-1], file=f, end='')
     return C
 
 

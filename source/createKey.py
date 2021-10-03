@@ -20,7 +20,7 @@ def getD(e, phi):
 
 
 if __name__ == '__main__':
-    bits = 1024
+    bits = 2048
     # tạo 2 số nguyên tố ngẫu nhiên
     p, q = myLibrary.getPrime(bits), myLibrary.getPrime(bits)
     n = p*q
