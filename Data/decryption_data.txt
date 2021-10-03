@@ -1,0 +1,6 @@
+
+Nhóm G04 Demo RSA
+
+.{print(x ** x)}
+
+hôm nay trồi đẹp thế nhỉ ỏ ỏ!! hi hi hi :3 =))
