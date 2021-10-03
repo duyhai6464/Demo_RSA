@@ -1,4 +1,4 @@
-# Demo_RSA
+# Demo_RSA G-04 nhóm 3 create by Nguyễn Duy Hải - B19DCAT056
 
 ** Bản demo giải thuật RSA với 3 tính năng chính: tạo khóa, mã hóa và giải mã.
 
