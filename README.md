@@ -27,7 +27,7 @@ PrivateKey = (n, d)
     
 
 *** myLibrary chứa một số hàm phụ trợ
-  * Kiểm tra tính nguyên tố
+  * Kiểm tra tính nguyên tố BigInt
   * Sinh 1 số nguyên tố ngẫu nhiên
   * String to Integer (ascii)
   * Integer to String (base 64)

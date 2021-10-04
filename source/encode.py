@@ -47,3 +47,4 @@ if __name__ == '__main__':
     P = get_data("Data/data.txt")
     # data --> encryption_data
     C = encode(n, e, P, "Data/encryption_data.txt")
+    print('data.txt ==> encryption_data.txt')

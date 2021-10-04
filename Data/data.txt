@@ -4,3 +4,12 @@ Nhóm G04 Demo RSA
 .{print(x ** x)}
 
 hôm nay trồi đẹp thế nhỉ ỏ ỏ!! hi hi hi :3 =))
+
+Họ tên – Mã SV:
+    Nguyễn Duy Hải – B19DCAT056
+    Nguyễn Minh Hải – B19DCAT058
+    Bùi Thị Hồng Hạnh – B19DCAT059
+    Nguyễn Anh Hào – B19DCAT060
+    Nguyễn Trung Hiếu – B19DCAT068
+
+Giảng viên giảng dạy: TS. Hoàng Xuân Dậu

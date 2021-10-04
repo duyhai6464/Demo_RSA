@@ -35,3 +35,5 @@ if __name__ == '__main__':
     with open('Data/privateKey.txt', "w") as f:
         print(n, file=f)
         print(d, file=f)
+
+    print('Created RSA Key: ' + bits + 'bits')
