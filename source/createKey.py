@@ -20,7 +20,7 @@ def getD(e, phi):
 
 
 if __name__ == '__main__':
-    bits = 2048
+    bits = 1024
     # tạo 2 số nguyên tố ngẫu nhiên
     p, q = myLibrary.getPrime(bits), myLibrary.getPrime(bits)
     n = p*q
@@ -28,12 +28,12 @@ if __name__ == '__main__':
     e = getE(phi)
     d = getD(e, phi)
 
-    with open('Data/publicKey.txt', "w") as f:
+    with open('Data/publicKey.txt', 'w') as f:
         print(n, file=f)
         print(e, file=f)
 
-    with open('Data/privateKey.txt', "w") as f:
+    with open('Data/privateKey.txt', 'w') as f:
         print(n, file=f)
         print(d, file=f)
 
-    print('Created RSA Key: ' + bits + 'bits')
+    print('Created RSA Key:', bits, 'bits')

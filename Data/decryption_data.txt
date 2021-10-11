@@ -1,10 +1,6 @@
 
 Nhóm G04 Demo RSA
 
-.{print(x ** x)}
-
-hôm nay trồi đẹp thế nhỉ ỏ ỏ!! hi hi hi :3 =))
-
 Họ tên – Mã SV:
     Nguyễn Duy Hải – B19DCAT056
     Nguyễn Minh Hải – B19DCAT058
@@ -13,3 +9,18 @@ Họ tên – Mã SV:
     Nguyễn Trung Hiếu – B19DCAT068
 
 Giảng viên giảng dạy: TS. Hoàng Xuân Dậu
+
+.{print(x ** x)}...
+
+hôm nay trồi đẹp thế nhỉ ỏ ỏ!! hi hi hi :3 =))...
+
+!@#$%^&*()_+}{:"|?><}/.,;'][=-0987654321]...
+// something is here ...
+\\ none ☀ ☁ ☂ ★ ☊ ♬ ☉ ☎ ☢ ♞ ♜ ☝ ⚡ ♈ ♍ ♒	...
+
+xin chào các bạn - Vietnam
+你好朋友 - China
+สวัสดีเพื่อน - Thailand
+皆さん、こんにちは - Japan
+안녕하세요 친구 - Korean
+...

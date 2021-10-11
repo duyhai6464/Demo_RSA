@@ -2,7 +2,7 @@ import myLibrary
 
 
 def get_data(file):
-    with open(file, "r") as f:
+    with open(file, 'r') as f:
         return f.read()
 
 
@@ -19,32 +19,32 @@ def convertStringToInt(P, base):
 
 def zipInt(R, size_n):
     A = []
-    x = ""
+    x = ''
     for i in R:
         # Tối ưu mã hóa nhiều kí tự nhất có thể
         if len(x) + len(i) >= size_n:
             A.append(int(x))
-            x = ""
+            x = ''
         x += i
     A.append(int(x))
     return A
 
 
 def encode(n, e, P, fileout):
-    with open(fileout, "w") as f:
-        C = ""
-        R = convertStringToInt(P, 4)
+    with open(fileout, 'w') as f:
+        C = ''
+        R = convertStringToInt(P, 5)
         A = zipInt(R, len(str(n)))
         for i in A:
             M = pow(i, e, n)
-            C += myLibrary.toBase(M, 64) + ' '
+            C += str(M) + ' '
         print(C[:-1], file=f, end='')
     return C
 
 
 if __name__ == '__main__':
-    n, e = myLibrary.getKey("Data/PublicKey.txt")
-    P = get_data("Data/data.txt")
-    # data --> encryption_data
-    C = encode(n, e, P, "Data/encryption_data.txt")
+    n, e = myLibrary.getKey('Data/PublicKey.txt')
+    P = get_data('Data/data.txt')
+    # data.txt --> encryption_data.txt
+    C = encode(n, e, P, 'Data/encryption_data.txt')
     print('data.txt ==> encryption_data.txt')
